@@ -1,0 +1,108 @@
+*{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	box-sizing:border-box;
+}
+body {
+	background-image:url("../Images/wine3.jpg");
+	font-size:cover;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+font-family: 'Newsreader', serif;
+
+  
+}
+
+.container {
+	background-color: white;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	width: 760px;
+	max-width: 100%;
+	min-height: 460px;
+  min-width:370px;
+}
+
+h2 {
+  font-size:20px;
+  margin-bottom:5px;
+}
+.form-container {
+  display:flex;
+}
+
+.left-container {
+  flex:1;
+  height:460px;
+  background-color:#9c283f;
+}
+.right-container {
+  display:flex;
+  flex:1;
+  height:460px;
+  background-color:#ffffff80;
+  justify-content:center;
+  align-items:center;
+}
+
+.left-container {
+  display:flex;
+  flex:1;
+  height:460px;
+  justify-content:center;
+  align-items:center;
+    
+}
+
+.left-container p {
+  font-size:15pxrem;
+}
+
+.right-inner-container {
+  width:70%;
+  height:80%;
+  text-align:center;
+}
+
+.left-inner-container {
+  height:50%;
+  width:80%;
+  text-align:center;
+  line-height:20px;
+}
+
+input, textarea {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+  font-size:0.8rem;
+}
+
+input:focus, textarea:focus{
+  outline:1px solid $teal;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #00b4cf;
+	background-color: #00b4cf;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  cursor:pointer;
+}
+
+button:hover {
+  opacity:0.7;
+}

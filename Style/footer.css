@@ -1,0 +1,33 @@
+.main-footer{
+text-align:center;
+background:black;
+color:#ffffff;
+padding:10px;
+}
+
+.fa-facebook {
+  background:#3b5998;
+  color:white;
+  height:20px;
+  width:50px;
+
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  height:20px;
+  width:50px;
+}
+
+.fa-instagram {
+  background: #3f729b;
+  color: white;
+  height:20px;
+  width:50px;
+}
+.fa-linkedin {
+  background: #0e76a8;
+  color: blue;
+  height:20px;
+  width:50px;
+}
